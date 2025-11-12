@@ -497,13 +497,809 @@ methods makes it cleaner and more modular.*/
 
 // string methods ......
 
-public class First{
-    public static void main(String[] args) {
-        String name = "shamim";
-        String lest_name= "    HACKER jj  ";
-        System.out.println(name.length());
-        System.out.println(name.toUpperCase());
-        System.out.println(lest_name.toLowerCase());
-        System.out.println(lest_name.trim());
-    }
-}
+// public class First{
+//     public static void main(String[] args) {
+//         String name = "shamim";
+//         String lest_name= "    HACKER jj  ";
+//         System.out.println(name.length());
+//         System.out.println(name.toUpperCase());
+//         System.out.println(lest_name.toLowerCase());
+//         System.out.println(lest_name.trim());
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+// public class First{
+//     public static void main(String args[]){
+//         System.out.println("hello world");
+//     }
+// }
+
+
+
+// public class First{
+//     public static void main(String args[]){
+//         System.out.println("good  mornig");
+//     }
+// }
+
+
+
+
+
+                                                        // variable in java 
+
+// 
+// public class First{
+//     public static void main(String args[]){
+//         int mynumber;
+//         mynumber = 66;
+//         System.out.println(mynumber);
+
+//         String name = "shamim";
+//         System.out.println(name);
+
+//         double number = 456.44;
+//         System.out.println(number);
+
+
+//         float number2 = 5666.54f;
+//         System.out.println(number2);
+
+
+
+//         boolean infoolow = true;
+//         System.out.println(infoolow );
+//     }
+// }
+
+
+
+
+// public class First{
+//     public static void main(String args[]){
+//         System.out.println("*\n**\n***\n****\n*****");
+//     }
+// }
+
+
+// public class First{
+//     public static void main(String args[]){
+//         System.out.println("    *\n   **\n  ***\n ****\n*****");
+//     }
+// }
+
+
+// public class First{
+//     public static void main(String args[]){
+//         System.out.println("*****\n****\n***\n**\n*");
+//     }
+// }
+
+
+
+                        //  input in java ..
+
+
+
+
+// import java.util.*;
+// public class First{
+//     public static void main (String args[]){
+//         Scanner sc = new  Scanner(System.in);
+//         String name = sc.nextLine();
+//         sc.close();
+//         System.out.println("amar nam cholo "+name);
+
+//     }
+// }
+
+
+
+
+// import java.util.*;
+// public class First{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         String name = sc.nextLine();
+//         sc.close();
+
+//         System.out.println("welcome "+ name +" vai");
+//     }
+// }
+
+
+
+// import java.util.*;
+// public class First{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter your first number: ");
+//         int number1 = sc.nextInt();
+
+//         System.out.print("Enter your second number: ");
+//         int number2 = sc.nextInt();
+
+//         int output = number1 + number2;
+//         System.out.println("Answer : "+output);
+//         sc.close();
+
+
+//     }
+// }
+
+
+
+
+// public class First{
+//     public static void main(String args[]){
+//         float number = 66;
+//         System.out.println(number);
+//     }
+// }
+
+
+
+ 
+
+
+
+                                        //  operators,if-else & number system...
+
+// 
+// /assigment oporator
+
+// public class First {
+
+//     public static void main(String args[]){
+//         int number = 66;
+//         System.out.println(number);
+//         String name = "SHAMIM";
+//         System.out.println(name);
+//         String newname = name;
+//         System.out.println(newname);
+//     }
+// }
+
+
+// swaping ....
+
+// import java.util.*;
+
+// public class First {
+
+//     public static void main(String args[]){
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("enter you number A : ");
+//         int number_A = input.nextInt();
+//         System.out.print("enter you number B : ");
+//         int number_B = input.nextInt();
+//         input.close();
+
+//         int number_C = number_A;
+//         number_A = number_B;
+//         number_B = number_C;
+
+//         System.out.println("Swapping done...");
+//         System.out.println("Value of A is : "+ number_A);
+//         System.out.println("Value of B is : "+ number_B);
+
+//     }
+// }
+
+
+
+
+
+// /arithmatic operator in java
+
+
+// public class First {
+//     static void addition(int a, int b){
+//         int addition = a + b;
+//         System.out.println(addition);
+//     }
+
+//     static void subtraction(int a, int b){
+//         int subtraction = a - b;
+//         System.out.println(subtraction);
+//     }
+
+//     static void multiplication(int a , int b){
+//         int multiplication = a * b;
+//         System.out.println(multiplication);
+//     }
+
+//     static void division (int a , int b ){
+//         int division = a / b;
+//         System.out.println(division);
+//     }
+
+//     static void modulus(int a , int b){
+//         int modular = a % b;
+//         System.out.println(modular);
+//     }
+
+
+//     public static void main(String args[]){
+//         addition(30,40);
+//         subtraction(20,10);
+//         multiplication(50,5);
+//         division(10,8);
+//         modulus(9,2);
+//     }
+// } 
+
+
+
+// public class First {
+
+//     public static void main(String args[]){
+//         int number = ((2 - 5) * 5);
+//         System.out.println(number);
+//         System.out.println(9/9/9/3);
+//     }
+// }
+
+
+
+
+
+//  shorthand operator ....
+
+// public class First {
+//     static void shorthand_addition(){
+//         int a = 50;
+//         a += 10;
+
+//         System.out.println(a);
+//     }
+
+//     static void shorthand_subtraction(){
+//         int a = 50;
+//         a -= 10;
+
+//         System.out.println(a);
+//     }
+
+//     static void shorthand_multiplication(){
+//         int a = 50;
+//         a *= 10;
+
+//         System.out.println(a);
+//     }
+
+//     static void shorthand_divition(){
+//         int a = 50;
+//         a /= 10;
+
+//         System.out.println(a);
+//     }
+
+//     static void shorthand_modulus(){
+//         int a = 50;
+//         a %= 10;
+
+//         System.out.println(a);
+//     }
+//     public static void main(String args[]){
+//         shorthand_addition();
+//         shorthand_divition();
+//         shorthand_modulus();
+//         shorthand_multiplication();
+//         shorthand_subtraction();
+//     }
+// }
+
+
+
+
+//  Unary operator ....
+
+// public class First {
+
+//     public static void main(String args[]){
+//         int a = 10;
+//         System.out.println(a);
+//         a ++;
+//         System.out.println(a);
+
+
+//         int b = 10;
+//         System.out.println(b);
+//         b --;
+//         System.out.println(b);
+
+
+//         int c = 10;
+//         System.out.println(c);
+//         ++c;
+//         System.out.println(c);
+
+
+//         int d = 10;
+//         System.out.println(d);
+//         --d;
+//         System.out.println(d);
+//     }
+// }
+
+
+
+
+
+// operators challenge ......
+
+// 1 create a program that takes two numbers and whow s reslut of all arithmatic operators ( + , - , * , / , % )
+
+
+
+// import java.util.*;
+// public class First {
+//     static void fun() {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you first number : ");
+//         int number_1 = input.nextInt();
+
+//         System.out.print("enter you secound number : ");
+//         int number_2 = input.nextInt();
+
+//         System.out.print("enter you operators ( + , - , * , / , % ) : ");
+//         String operators = input.next();
+
+//         input.close();
+
+//         switch (operators) {
+//             case "+":
+//                 System.out.println(number_1 + "+"+ number_2+" = "+(number_1 + number_2));
+//                 break;
+//              case "-":
+//                 System.out.println(number_1 + "-"+ number_2+" = "+(number_1 - number_2));
+//                 break;
+//              case "*":
+//                 System.out.println(number_1 + "*"+ number_2+" = "+(number_1 * number_2));
+//                 break;
+//              case "/":
+//                 System.out.println(number_1 + "/"+ number_2+" = "+(number_1 / number_2));
+//                 break;
+//              case "%":
+//                 System.out.println(number_1 + "%"+ number_2+" = "+(number_1 % number_2));
+//                 break;
+        
+//             default:
+//             System.out.println("you operator in not-found");
+//                 break;
+//         }
+
+
+//     }
+//     public static void main(String[] args) {
+//         fun();
+//     }
+// }
+
+
+
+
+//  2 create a program to calculate product of two floating points numbers.....
+
+
+// import java.util.*;
+// public class First {
+//     static void floatingnumber() {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you first number : ");
+//         int number_1 = input.nextInt();
+
+//         System.out.print("enter you secound number : ");
+//         int number_2 = input.nextInt();
+//         input.close();
+//         float sum = number_1 + number_2;
+
+//         System.out.println(sum);
+
+//     }
+//     public static void main(String[] args) {
+//         floatingnumber();
+//     }
+// }
+
+
+
+
+
+//  3 create a program to calculate premeter of a rectagle perimeter of reactangle ABCD  = A + B + C + D...
+
+
+// import java.util.*;
+// public class First {
+//     static void reactengle(){
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you number A : ");
+//         int number_A = input.nextInt();
+
+//         System.out.print("enter you number B : ");
+//         int number_B = input.nextInt();
+
+//         System.out.print("enter you number C : ");
+//         int number_C= input.nextInt();
+
+//         System.out.print("enter you number D : ");
+//         int number_D= input.nextInt();
+
+//         input.close();
+
+        
+//         float sum = (number_A + number_B + number_C + number_D);
+//         System.out.println("Answer : "+sum);
+       
+//     }
+//     public static void main(String[] args) {
+//         reactengle();
+//     }
+// }
+
+
+
+
+// 4 create a program to calculate the Area of a Triangle Area of triangle = (0.5f * * b * h )...
+
+
+
+// import java.util.*;
+
+// public class First {
+
+//     static void Area(){
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter the value of B : ");
+//         int number_1 = input.nextInt();
+
+//         System.out.print("enter the value of H : ");
+//         int number_2 = input.nextInt();
+
+//         input.close();
+
+//         float sum = (0.5f * number_1 * number_2);
+//         System.out.println("Answer : "+sum);
+//     }
+//     public static void main(String[] args) {
+//         Area();
+//     }
+// }
+
+
+
+
+
+//  5 create a program to calculate the simple interest simple interest = (p * t * r) / 100...
+
+
+// import java.util.*;
+
+// public class First {
+
+//     static void interest(){
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you value of P : ");
+//         int p = input.nextInt();
+
+//         System.out.print("enter you value of T : ");
+//         int t = input.nextInt();
+
+//         System.out.print("enter you value of R : ");
+//         int r = input.nextInt();
+
+//         input.close();
+
+//         float output = (p * t * r);
+//         System.out.println("Answer : "+output);
+//     }
+//     public static void main(String[] args) {
+//         interest();
+//     }
+// }
+
+
+
+
+
+
+
+
+//  6 create a program to calculate the simple interest simple interest = p(1 + r/100)t...
+
+
+// import java.util.*;
+
+// public class First {
+
+//     static void interest(){
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you value of P : ");
+//         int p = input.nextInt();
+
+//         System.out.print("enter you value of T : ");
+//         int t = input.nextInt();
+
+//         System.out.print("enter you value of R : ");
+//         int r = input.nextInt();
+
+//         input.close();
+
+//         float output = p*(1 + r / 100)*t;
+//         System.out.println("Answer : "+output);
+//     }
+//     public static void main(String[] args) {
+//         interest();
+//     }
+// }
+
+
+
+
+
+
+//  7 create a program to convert fahrenhite to celsius = C = (F - 32) * 5/9...
+
+// import java.util.*;
+
+// public class First {
+
+//     static void fahrenhite(){
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("enter you farenhite valu : ");
+//         int F = input.nextInt();
+//         input.close();
+
+//         float Celsius = ( F - 32) * 5/9;
+
+//         System.out.println("Celsius : "+Celsius);
+//     }
+//     public static void main(String[] args) {
+//         fahrenhite();
+//     }
+// }
+
+
+
+
+
+                                                // else if in java
+
+// 
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         if(true){
+//             System.out.println("you are rigjht ...");
+//         }
+
+//         if(false){
+//             System.out.println("you are wrong");
+//         }else{
+//             System.out.println("secound is right...");
+//         }
+//     }
+// }
+
+
+
+// import java.util.*;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you age : ");
+//         int age = input.nextInt();
+//         input.close();
+
+//         if(age >= 18 && age < 30){
+//             System.out.println("you are adalt..");
+//         }else{
+//             System.out.println("you are chiled...");
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+// if else challenge ...
+
+// 1 create a program that determines if a number is positive , negative , or zero.....
+// Answer...
+
+// import java.util.*;
+// public class First {
+//     static void determines(){
+//         Scanner input = new Scanner(System.in);
+        
+//         System.out.print("enter you number : ");
+//         int number = input.nextInt();
+//         if(number == 0){
+//             System.out.println(number +" is invalid..");
+//         }else if( number % 2 == 0){
+//             System.out.println(number + " is positive number ..");
+//         }else{
+//             System.out.println(number + " is negative..");
+//         }
+//         input.close();
+//     }
+//     public static void main(String[] args) {
+//         determines();
+//     }
+// }
+
+
+
+
+//  2 create a program that determines if a number id od and even...
+// ANSWER..
+
+// import java.util.*;
+// public class First {
+
+//     static void odd_even (){
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you number : ");
+//         int number = input.nextInt();
+
+//         if(number % 2 == 0){
+//             System.out.println(number + " is even number..");
+//         }else{
+//             System.out.println(number + " is odd number...");
+//         }
+
+//         input.close();
+//     }
+//     public static void main(String[] args) {
+//         odd_even();
+//     }
+// }
+
+
+
+
+//  3 create a program that determines the greatest of the three numbers ...
+// ANSWER...
+
+// import java.util.*;
+
+// public class First {
+
+//     static void greatestnumber(){
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you number A : ");
+//         int number_1 = input.nextInt();
+
+//         System.out.print("enter you number B : ");
+//         int number_2 = input.nextInt();
+
+//         System.out.print("enter you number C : ");
+//         int number_3 = input.nextInt();
+
+//         if(number_1 > number_2 && number_1 > number_3){
+//             System.out.println(number_1 +" is a greatest numbers...A");
+//         }else if(number_2 > number_1 && number_2 > number_3){
+//             System.out.println(number_3 +" is a greatest numbers...B");
+//         }else{
+//             System.out.println(number_3 +" is a greatest numbers...C");
+//         }
+        
+//         input.close();
+//     }
+//     public static void main(String[] args) {
+//         greatestnumber();
+//     }
+// }
+
+
+
+
+//  4 create a program that determines if a given year is a leap year ...
+// answer..
+
+
+// import java.util.*;
+
+// public class First {
+
+//     static void leap_year(){
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("enter you year : ");
+//         int year = input.nextInt();
+
+//         if((year % 4 == 0 && year % 100 != 0 ) || year % 400 == 0){
+//             System.out.println(year + " is leap year...");
+//         }else{
+//             System.out.println(year + " is no leap year...");
+//         }
+
+//         input.close();
+//     }
+//     public static void main(String[] args) {
+//         leap_year();
+//     }
+// }
+
+
+
+
+
+// 5 create a program that calculates greades besed on marks...
+// ANSWER ...
+
+// import java.util.*;
+// public class First {
+//     static void grades (){
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you marks parsentics : ");
+//         int number = input.nextInt(); 
+
+//         if(number <= 100 && number >= 90){
+//             System.out.println("A+");
+//         }else if(number < 90 && number >= 80){
+//             System.out.println("B+");
+//         }else if(number < 80 && number >= 70){
+//             System.out.println("C+");
+//         }else if(number < 70 && number >= 60){
+//             System.out.println("D+");
+//         }else{
+//             System.out.println("you are fail");
+//         }
+            // input.close();
+//     }
+//     public static void main(String[] args) {
+//         grades();
+//     }
+// }
+
+
+
+
+// import java.util.*;
+// public class First {
+
+//     static void person(){
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("enter you age : ");
+//         int age = input.nextInt(); 
+
+//         if(age >= 18 ){
+//             if(age > 50){
+//                 System.out.println("you are senior..");
+//             }
+//             System.out.println("you are adult");
+//         }else{
+//             System.out.println("you are  children..");
+//         }
+//     }
+//     public static void main(String[] args) {
+//         person();
+//     }
+// }
