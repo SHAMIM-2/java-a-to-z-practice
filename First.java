@@ -1303,3 +1303,404 @@ methods makes it cleaner and more modular.*/
 //         person();
 //     }
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                //  while loop ,methods & array in java
+
+
+// 
+
+// while loop...
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         int i , valu;
+//         i = 1;
+//         valu = 10;
+
+//         while(i <= valu){
+           
+//             System.out.println("i = "+ i);
+//             i++;
+//         }
+//     }
+// }
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         int count = 500;
+
+//         while(count >= 0){
+//             System.out.println("number : "+count);
+//             count--;
+//         }
+//     }
+// }
+
+
+
+
+// import java.util.*;
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         int i = 1;
+//         while(i <= 5){
+//             System.out.print("enter you number : ");
+//             int value = input.nextInt();
+//             System.out.println("value is : "+ value);
+//             i++;
+//         }
+//         input.close();
+//     }
+// }
+
+
+
+
+
+// function ....
+
+
+// public class First {
+
+//     static String helloPrint(String valu){
+        
+//         return valu;
+//     }
+//     public static void main(String[] args) {
+//         String output = helloPrint("shamim");
+//         System.out.println(output);
+//     }
+// }
+
+
+
+
+// public class First {
+
+//     static void welcome(){
+//         System.out.println("welcome to java class..");
+//     }
+//     public static void main(String[] args) {
+//         for(int i = 1; i <= 10; i++){
+//             System.out.print(i+" : ");
+//             welcome();
+//         }
+//     }
+// }
+
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         pattern_1();
+//     }
+
+//     static void pattern_1 (){
+//         int i = 1;
+        
+//         while(i <= 50){
+//             int j = 1;
+//             while(j <= i){
+//                 System.out.print("*"+" ");
+//                 j++;
+//             }
+//             System.out.println();
+//             i++;
+//         }
+//     }
+// }
+
+
+
+
+
+// import java.util.*;
+
+// public class First {
+
+//     static String identity (String name, int age){
+//         String exjust = "amar nam holo "+name+" amar age holo "+age;
+//         return exjust;
+//     }
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you name : ");
+//         String name = input.nextLine();
+
+//         System.out.print("enter you age :");
+//         int age = input.nextInt();
+
+//         String output = identity(name, age);
+//         System.out.println(output);
+
+//         input.close();
+//     }
+// }
+
+
+
+
+// public class First {
+
+//     static int sum (int a , int b){
+//         return a + b;
+//     }
+//     public static void main(String[] args) {
+//         int output = sum(5,5);
+//         System.out.println(output);
+//     }
+// }
+
+
+
+
+
+
+//  loop and function challenge....
+
+// 1 develop a program that prints the multiplication table for a given number ....
+
+// import java.util.Scanner;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you number : ");
+//         int number = input.nextInt();
+//         multiplicationtable(number);
+//         input.close();
+//     }
+
+//     static void multiplicationtable(int number){
+//         int value = number ;
+        
+//         for(int i = 1; i <= 10; i++){
+//             System.out.println(value + " * "+i+" = "+(value * i));
+//         }
+//     }
+// }
+
+
+
+
+
+//  2 create a program to sum all odd numbers from 1 to speaified number N....
+// ANSWER...
+
+// import java.util.Scanner;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("enter you number : ");
+//         int number = input.nextInt();
+//         int output = sum_of_odd_Number(number);
+//         System.out.println("Answer : "+output);
+//         input.close();
+//     }
+
+//     static int sum_of_odd_Number(int number){
+//         int N = number;
+//         int sum = 0;
+//         for(int i = 1; i <= N; i++){
+//             if(i % 2 != 0){
+//                 sum += i;
+//             }
+//         }
+//         return sum;
+//     }
+// }
+
+
+
+
+//  3 write a function that calculates the factorial of a given number.....
+
+// import java.util.Scanner;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you number : ");
+//         int number = input.nextInt();
+
+//         int output = factorial(number);
+//         System.out.println(output);
+
+
+//         input.close();
+
+//     }
+
+//     static int factorial(int value){
+
+//         int fac = 1;
+//         for(int i = 1; i <= value; i++){
+//             fac *= i;
+//         }
+//         return fac;
+//     }
+// }
+
+
+
+
+
+//  4 create a program that computes the sum of the digits on an integer....
+
+// import java.util.Scanner;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you number : ");
+//         int number = input.nextInt();
+
+
+//         int output = integer_number_sum(number);
+//         System.out.println(output);
+
+
+//         input.close();
+//     }
+
+//     static int integer_number_sum (int value){
+//         int sum = 0;
+//         for (int i = 1; i <= value; i++){
+//             sum += i;
+//         }
+//         return sum;
+//     }
+// }
+
+
+// import java.util.*;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you number : ");
+//         int number = input.nextInt();
+
+//         int output = integer_number_sum(number);
+//         System.out.println(output);
+//         input.close();
+
+//     }
+
+//     static int integer_number_sum (int value){
+//         String str = Integer.toString(value);
+//         int number[] = new int[str.length()];
+
+//         int sum = 0;
+//         for(int i = 0; i < str.length(); i++){
+//             number[i] = str.charAt(i) - '0';
+//             sum += number[i];
+//         }
+//         return sum;
+
+//     }
+// }
+
+
+
+
+
+
+//  5 Create a program to find the least commonm Multiple (Lcm) of two...
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         int Lcm = LCM();
+//         System.out.println(Lcm);
+//     }
+
+//     static int LCM(){
+//         int i = 1;
+//         int output = 0;
+//         while (i > 0) {
+//             if(i % 15 == 0 && i % 20 == 0){
+//                 output = i;
+//                 break;
+//             }
+//             i++;
+//         }
+//         return output;
+//     }
+// }
+
+
+
+
+
+
+
+
+
+// import java.util.Scanner;
+
+// public class First {
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("Enter first number: ");
+//         int a = input.nextInt();
+//         System.out.print("Enter second number: ");
+//         int b = input.nextInt();
+
+//         int lcm = LCM(a, b);
+//         System.out.println("LCM = " + lcm);
+
+//         input.close();
+//     }
+
+//     static int LCM(int a, int b) {
+//         int i = 1;
+//         while (true) {
+//             if (i % a == 0 && i % b == 0) {
+//                 return i;
+//             }
+//             i++;
+//         }
+//     }
+// }
+
+
+
+
+
