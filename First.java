@@ -1704,3 +1704,297 @@ methods makes it cleaner and more modular.*/
 
 
 
+
+
+
+//  6  create a program to find the greatest common divison  (GCD) of two integers....
+// ANSWER...
+
+// import java.util.Scanner;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you first number : ");
+//         int number_1 = input.nextInt();
+
+//         System.out.print("enter you secound number : ");
+//         int number_2 = input.nextInt();
+
+//         int output = GCD(number_1, number_2);
+//         System.out.println(output);
+//         input.close();
+//     }
+
+//     static int GCD(int number_1, int number_2){
+        
+//         int number_output;
+//         int value = 1;
+//         if(number_1 > number_2){
+//             number_output = number_1;
+//         }else{
+//             number_output = number_2;
+//         }
+
+//         for(int i = 1; i < number_output; i++){
+//             if(number_1 % i == 0 && number_2 % i == 0){
+//                 value = i;
+//             }
+//         }
+//         return value;
+//     }
+// }
+
+
+
+
+
+
+
+
+//  7 create a program to cheak whether a geven number in prime...
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         int value = 33;
+//         boolean isPrime = prime_number(value);
+//         System.out.println(value + " is prime? " + isPrime);
+//     }
+
+//     static boolean prime_number(int value) {
+//         if(value <= 1) return false; // 1 বা 0 prime নয়
+
+//         for(int i = 2; i <= Math.sqrt(value); i++) {
+//             if(value % i == 0) {
+//                 return false; // ভাগ যাচ্ছে → prime নয়
+//             }
+//         }
+
+//         return true; // ভাগ যাচ্ছেনা → prime
+//     }
+// }
+
+
+
+
+
+
+
+//  8 create a program to check reverse the disitst of number...
+
+// import java.util.Scanner;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you valu : ");
+//         String number = input.nextLine(); 
+        
+//         String output = reberse(number);
+//         System.out.println(output);
+//         input.close();
+//     }
+
+//     static String reberse (String number){
+//         String outpur = "";
+//         for(int i = number.length()-1; i >= 0; i--){
+//             outpur += number.charAt(i);
+//         }
+//         return outpur;
+//     }
+// }
+
+
+
+
+
+
+
+//  9 fibinakki ....
+
+// import java.util.Scanner;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you number : ");
+//         int number = input.nextInt();
+
+//         fibonakki(number);
+        
+//         input.close();
+//     }
+
+//     static void fibonakki (int value){
+//         int num_1 = 0, num_2 = 1;
+//         if(value < 0)return;
+//         System.out.print("0 ");
+//         if(value == 0)return;
+//         System.out.print("1 ");
+
+//         while(num_1+num_2 <= value){
+//             int num_3 = num_1+num_2;
+//             System.out.print(num_3 + " ");
+//             num_1 = num_2;
+//             num_2 = num_3;
+//             // value++;
+//         }
+
+//     }
+// }
+
+
+
+
+
+
+
+
+
+//  10 create a program to cheak if a number is an armstorng number ....
+// ANSWER...
+
+// import java.util.Scanner;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("Enter your number: ");
+//         String number = input.nextLine();
+
+//         String outpur = armstorng(number);
+//         System.out.println(outpur);
+
+//         input.close();
+
+//     }
+
+//     static String armstorng(String number){
+//         int sum = 0;
+//         for(int i = 0; i < number.length(); i++){
+//             int num = Character.getNumericValue(number.charAt(i));
+//             int mu_num = num*num*num;
+//             sum += mu_num;
+//         }
+//         String sumdublicate = Integer.toString(sum);
+//         if(number.equals(sumdublicate)){
+//             return  "Armstrong number ";
+//         }else {
+//             return "Not an Armstrong number ";
+//         }
+//     }
+// }
+
+
+
+
+
+
+// 11 create a program to verufy if a number palindrome....
+
+// import java.util.Scanner;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("enter you palindom chack : ");
+//         String valu = input.nextLine();
+
+
+//         String output = palindrome(valu);
+//         System.out.println(output);
+
+//         input.close();
+//     }
+
+//     static String palindrome(String value){
+//         String output = "";
+//         for(int i = value.length()-1; i >= 0; i--){
+//             output += value.charAt(i);
+//         }
+//         if(value.equals(output)){
+//             String values = value+" is palindom";
+//             return values;
+//         }else{
+//             String values = value+" is not palindom";
+//             return values;
+//         }
+//     }
+// }
+
+
+
+
+
+//  12 creatre pattens 
+
+public class First {
+
+    public static void main(String[] args) {
+        pattens(5);
+        pattens1(5);
+        pattens3(5);
+    }
+
+    static void pattens(int number ){
+        for(int i = 1; i <= number; i++){
+            
+            for(int j = 1; j <= i; j++){
+               
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        
+    }
+    static void pattens1(int number ){
+        for(int i = number; i >= 0; i--){
+            
+            for(int j=1; j <= i; j++){
+               
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        
+    }
+
+    static void pattens3(int number ){
+        for(int i = number; i >= 0; i--){
+            
+            for(int j=1; j <= i; j++){
+               
+                System.out.print(". ");
+            }
+            System.out.println();
+        }
+        for(int i = number; i >= 0; i--){
+            
+            for(int j=1; j <= i; j++){
+               
+                System.out.print("* ");
+            }
+            System.out.println();
+
+             
+            
+            for(int j = i; j >= 0; j--){
+               
+                System.out.print("* ");
+            }
+           
+        }
+        
+    }
+}
