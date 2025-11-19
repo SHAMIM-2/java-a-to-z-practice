@@ -1939,62 +1939,363 @@ methods makes it cleaner and more modular.*/
 
 //  12 creatre pattens 
 
-public class First {
+// public class First {
 
-    public static void main(String[] args) {
-        pattens(5);
-        pattens1(5);
-        pattens3(5);
-    }
+//     public static void main(String[] args) {
+//         pattens(5);
+//         pattens1(5);
+//         pattens3(5);
+//     }
 
-    static void pattens(int number ){
-        for(int i = 1; i <= number; i++){
+//     static void pattens(int number ){
+//         for(int i = 1; i <= number; i++){
             
-            for(int j = 1; j <= i; j++){
+//             for(int j = 1; j <= i; j++){
                
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+//                 System.out.print("* ");
+//             }
+//             System.out.println();
+//         }
         
-    }
-    static void pattens1(int number ){
-        for(int i = number; i >= 0; i--){
+//     }
+//     static void pattens1(int number ){
+//         for(int i = number; i >= 0; i--){
             
-            for(int j=1; j <= i; j++){
+//             for(int j=1; j <= i; j++){
                
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+//                 System.out.print("* ");
+//             }
+//             System.out.println();
+//         }
         
-    }
+//     }
 
-    static void pattens3(int number ){
-        for(int i = number; i >= 0; i--){
+//     static void pattens3(int number ){
+//         for(int i = number; i >= 0; i--){
             
-            for(int j=1; j <= i; j++){
+//             for(int j=1; j <= i; j++){
                
-                System.out.print(". ");
-            }
-            System.out.println();
-        }
-        for(int i = number; i >= 0; i--){
+//                 System.out.print(". ");
+//             }
+//             System.out.println();
+//         }
+//         for(int i = number; i >= 0; i--){
             
-            for(int j=1; j <= i; j++){
+//             for(int j=1; j <= i; j++){
                
-                System.out.print("* ");
-            }
-            System.out.println();
+//                 System.out.print("* ");
+//             }
+//             System.out.println();
 
              
             
-            for(int j = i; j >= 0; j--){
+//             for(int j = i; j >= 0; j--){
                
-                System.out.print("* ");
-            }
+//                 System.out.print("* ");
+//             }
            
-        }
+//         }
         
-    }
-}
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    //  Array in java
+
+// 
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         int number[] = {3,5,6,4,7,8,6,8};
+//         int sum = 0;
+        
+//         for(int i = 0; i < number.length; i++){
+//             sum += number[i];
+
+//         }
+//         System.out.println(sum);
+//         System.out.println(sum / number.length + " " + sum % number.length);
+//     }    
+// }
+
+// import java.lang.reflect.Array;
+// import java.util.Arrays;
+// import java.util.Scanner;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("enter you student aveleb number : ");
+//         Arraysfun(input.nextInt());
+//         input.close();
+//     }
+//     static void Arraysfun (int value){
+//         int marks[] = new int[value];
+//         Scanner input = new Scanner(System.in);
+        
+
+//         for(int i = 0; i < marks.length; i++){
+//             System.out.print("enter you marks : ");
+//             int input_Marks = input.nextInt();
+//             marks[i] = input_Marks;
+//         }
+//         String output = Arrays.toString(marks);
+//         System.out.println(output);
+//         input.close();
+
+//     }
+// }
+
+
+
+
+//  array challenge ....
+
+//  1  create a program to find the sum and averge of all elements in an array...
+// ANSWER ..
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         sum_average();
+//     }
+//     static void sum_average (){
+//         int marks[] = {22,33,55,77,88,99};
+//         int sum = 0;
+//         for(int i = 0; i< marks.length; i++){
+//             sum += marks[i];
+//         }
+//         System.out.println(sum + " " + sum / marks.length);
+//     }
+// }
+
+
+
+
+
+//  2 create a program to find number of occurrences of an element in an array ...
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         occurrences();
+//     }
+
+//     static void occurrences(){
+//         int count = 0;
+//         int marks[] = {22,33,55,77,88,99,55,55 };
+//         for(int i = 0; i < marks.length; i++){
+//             if(marks[i]== 55){
+//                 count++;
+//                 System.out.println(marks[i] + " index = "+ i);
+//             }
+//         }
+//         System.out.println(count);
+        
+//     }
+// }
+
+
+
+
+
+
+
+//  3 create a program to find the maximum and minimun elemnt in an arry...
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         int arr[] = {22,33,44,55,66,11,33};
+//         int max = arr[0];
+//         int min = arr[0];
+//         for(int i = 0; i < arr.length; i++){
+//             System.out.println(arr[i]);
+//             if(arr[i] > max){
+//                 max = arr[i];
+//             }
+//             if(arr[i] < min){
+//                 min = arr[i];
+//             }
+//         }
+//         System.out.println("Maximum element: " + max);
+//         System.out.println("Minimum element: " + min);
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+                                    // /               / advanch java
+
+// 
+
+                                                        // Classes & objects
+// 
+
+
+// class Car {
+
+//     String color;
+//     String type;
+
+//     public void start(){
+//         System.out.println("car is started...");
+//     }
+// }
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Car myCar = new Car();
+
+//         System.out.println("function call..");
+//         myCar.start();
+
+//         System.out.println("function call end...");
+
+//         String myCarcolor = myCar.color;
+//         myCarcolor = "red";
+//         System.out.println(myCarcolor);
+
+
+//     }
+// }
+
+
+
+
+
+
+
+
+
+// class Student{
+//     String name;
+//     int age;
+
+//     public void info(){
+//         System.out.println("amar nam holo "+this.name);
+//         System.out.println("amar age holo "+this.age);
+//     }
+//     Student(String name,int age){
+//         this.name = name;
+//         this.age = age;
+//     }
+// }
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         Student s1 = new Student("shamim", 20);
+//         s1.info();
+//         System.out.println(s1.name +"\n"+s1.age);
+//     }
+// }
+
+
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         System.out.println("hello shamim");
+//     }
+// }
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         oop o1 = new oop("shamim");
+//         o1.info();
+//     }
+// }
+
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         oop o1 = new oop();
+//         o1.hello_orint();
+//     }
+// }
+
+
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         oop o1 = new oop();
+//         o1.hello_orint("shamim");
+//     }
+// }
+
+
+
+// public class First {
+
+//     public static void main(String[] args){
+//         oop o1 = new oop();
+//         String o1answer = o1.sum_of_two_number(30, 20);
+//         System.out.println(o1answer);
+
+//         String o2answer = o1.sum_of_two_number(11, 23);
+//         System.out.println(o2answer);
+//     }
+// }
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         overLoding overLoding1 = new overLoding();
+//         System.out.print("overloding one :");
+//         System.out.println(overLoding1.sum_of_two_number(23,55));
+
+//         System.out.print("overloding two :");
+//         System.out.println(overLoding1.sum_of_two_number(23,54));
+//     }
+// }
+
+
+
+
+
