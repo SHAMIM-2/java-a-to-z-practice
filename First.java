@@ -2299,3 +2299,190 @@ methods makes it cleaner and more modular.*/
 
 
 
+
+
+
+
+
+// import java.util.*;
+
+// public class First{
+//     public static void main(String[] args){
+//         System.out.println("kemon aso");
+//     }
+// }
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         System.out.println("hello world");
+//     }
+// }
+
+
+
+
+// import java.util.*;
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         long number = (long)(Math.random()*100);
+//         System.out.println(number);
+
+//     }
+// }
+
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         practic p1 = new practic();
+//         p1.logic();
+//     }
+// }
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         String name = "shamim";
+//         System.out.println(name);
+//         String age = new String("20");
+//         System.out.println(age);
+//     }
+// }
+
+
+
+
+
+// public class First{
+//     public static void main(String[] args) {
+//         System.out.println("kemon aso");
+//     }
+// }
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         practic p1 = new practic("new project","shamim");
+//         p1.output();
+//         System.out.println(p1.author);
+
+//     }
+    
+// }
+
+
+
+
+// public class First{
+//     public static void main(String[] args){
+//         System.out.println("hello java \n iam back ");
+//     }
+// }
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         System.out.println("hello shamim");
+//         System.out.print("hello shamim");
+//         System.out.println("hello shamim");
+//         System.out.println("hello shamim");
+//     }
+// }
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         returnsvalu();
+//     }
+
+//     static void returnsvalu(){
+//         for(int a = 1; a <= 5; a++){
+//             for(int b = 1; b <=a; b++){
+//                 System.out.print(" * ");
+//             }
+//             System.out.println("");
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         practic p1 = new practic();
+//         p1.outputSUB();
+//         p1.outputMAIN();
+//     }
+// }
+
+
+
+
+// public class First {
+
+//     public static void main(String[] args) {
+//         int marks[] = {22,33,44,55};
+//         System.err.println(marks[1]);
+//         System.out.println(marks.length);
+//     }
+// }
+
+import java.util.*;
+public class First {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("enter you array size : ");
+        int number = input.nextInt();
+
+        int marks[] = new int[number];
+
+        int index = 0;
+
+        for(int i = 0; i < number; i++){
+            System.out.print("enter you marks : ");
+            marks[i] = input.nextInt();
+        }
+
+        for(int i = 0; i<marks.length; i++){
+            System.err.println("marks is : "+ marks[i]);
+        }
+
+        for(int i = 0; i<marks.length; i++){
+            if(marks[i] == 77){
+                index++;
+                System.out.println("number match : " + marks[i] + " \nindex holo  "+ i);
+                break;
+            }
+        }
+
+        input.close();
+    }
+
+}
